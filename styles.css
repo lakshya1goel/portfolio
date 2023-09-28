@@ -1,3 +1,8 @@
+body {
+    /* background-image: linear-gradient(to bottom, #78c9fb, #065586); */
+    margin: 0;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -22,7 +27,11 @@ li {
 a {
     text-decoration: none;
     padding: 10px;
-    background-image: linear-gradient(to right, #FF69B4, #e1d010);
+    /* background-image: linear-gradient(to right, #FF69B4, #e1d010); */
     border-radius: 10px;
     color: white;
+}
+
+img {
+    width: 30%;
 }
