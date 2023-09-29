@@ -43,7 +43,7 @@ li {
     margin: 0 20px;
 }
 
-a {
+.menu a {
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
@@ -224,18 +224,18 @@ a {
     margin: 0 auto;
 }
 
-#download {
-    padding: 10px;
-    margin: 20px;
-    background: linear-gradient(to left, #0c5c8f, #74c2f3);
-    cursor: pointer;
-    border-radius: 20px;
-    color: white;
+#download-anchor {
     display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: 18rem;
+    padding: 25px;
+    margin-left: 150px;
+}
+
+#download {
+    background-color: orange;
     border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #foot {
@@ -279,7 +279,7 @@ a {
 
 @media (max-width: 700px) {
     main {
-        background-color: #b3dbf5;
+        background-color: #0f1519;
     }
 
     .menu {
