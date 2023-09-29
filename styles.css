@@ -135,7 +135,7 @@ a {
 }
 
 #projects h2 {
-    font-size: 80px;
+    font-size: 5vw;
     padding: 20px;
 }
 
@@ -157,12 +157,26 @@ a {
 
 #resume {
     background-color: #D9EDFA;
+    display: flex;
 }
+
+#resume img {
+    max-width: 100%;
+    width: min(25vw, 90%);
+    height: auto;
+    padding: 50px;
+    transform: rotate(15deg);
+    /* transition: transform 0.3s; */
+}
+
+/* #resume img:hover {
+    transform: translateY(-5px);
+} */
 
 #about-resume {
     display: flex;
     justify-content: flex-start;
-    padding: 50px;
+    margin: 50px 100px;
 }
 
 #about-resume h2 {
@@ -232,6 +246,10 @@ a {
 
 
 @media (max-width: 700px) {
+    main {
+        background-color: #b3dbf5;
+    }
+
     .menu {
         display: none;
     }
@@ -266,5 +284,13 @@ a {
         margin: 0;
         align-self: center;
         order: 1;
+    }
+
+    #my-projects {
+        flex-direction: column;
+    }
+
+    #foot {
+        flex-direction: column;
     }
 }
