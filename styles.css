@@ -77,7 +77,6 @@ a {
     animation: bounce 0.5s infinite alternate;
 }
 
-
 @keyframes bounce {
     0% {
         transform: translateY(0);
@@ -130,6 +129,42 @@ a {
     width: 10rem;
     height: auto;
 }
+
+#resume {
+    background-color: #D9EDFA;
+}
+
+#about {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+#about h2 {
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+#about h4 {
+    padding: 8px;
+    text-align: left;
+}
+
+#about-text h4 {
+    position: relative;
+}
+
+#about-text h4:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    width: 650px; 
+    height: 0.5px;
+    background-color: rgb(0,0,0,0.3); 
+}
+
+
 #foot {
     display: flex;
     background-color: #74c2f3;
@@ -166,6 +201,8 @@ a {
     padding: 10px 20px;
     font-size: 16px;
 }
+
+
 
 @media (max-width: 700px) {
     .menu {
