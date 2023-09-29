@@ -2,6 +2,15 @@ body, h2, h4, p {
     margin: 0;
 }
 
+#skills img {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+#skills img:hover {
+    transform: translateY(-10px); 
+}
+
 main {
     background: linear-gradient(to right, #b3dbf5 85%, #97cff2 15%);
 }
@@ -166,12 +175,13 @@ a {
     height: auto;
     padding: 50px;
     transform: rotate(15deg);
-    /* transition: transform 0.3s; */
+    transition: transform 0.3s;
+    cursor: pointer;
 }
 
-/* #resume img:hover {
-    transform: translateY(-5px);
-} */
+#resume img:hover {
+    transform: translateY(-10px) rotate(15deg);
+}
 
 #about-resume {
     display: flex;
