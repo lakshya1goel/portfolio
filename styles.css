@@ -3,13 +3,13 @@ body, h2, h4 {
 }
 
 main {
-    background: linear-gradient(to right, #2e8fcc 85%, #97cff2 15%);
+    background: linear-gradient(to right, #b3dbf5 85%, #97cff2 15%);
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: #065586;
+    background-color: #74c2f3;
     color: white;
 }
 
@@ -46,15 +46,21 @@ a {
 }
 
 #about {
-    padding: 50px;
+    padding: 50px 100px;
 }
 
 #about h4{
-    font-size: 30px;
+    font-size: 40px;
+    padding-left: 180px;
 }
 
 #about h2 {
-    font-size: 40px;
+    font-size: 50px;
+    padding-left: 100px;
+}
+
+#about p {
+    font-size: 25px;
 }
 
 img {
@@ -65,7 +71,7 @@ img {
 
 #foot {
     display: flex;
-    background-color: #065586;
+    background-color: #74c2f3;
 }
   
 .text {
