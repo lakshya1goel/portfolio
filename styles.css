@@ -130,6 +130,31 @@ a {
     height: auto;
 }
 
+#my-projects {
+    display: flex;
+}
+
+#projects h2 {
+    font-size: 80px;
+    padding: 20px;
+}
+
+.pro {
+    margin: 70px;
+    padding: 50px;
+    background-color: #D9EDFA;
+    border-radius: 50px;
+}
+
+.card-content h3 {
+    font-size: 30px;
+    justify-content: center;
+}
+
+.card-content h5 {
+    font-size: 15px;
+}
+
 #resume {
     background-color: #D9EDFA;
 }
