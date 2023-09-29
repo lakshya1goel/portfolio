@@ -79,7 +79,17 @@ li {
     line-height: 1.6;
 }
 
-#home img {
+#connect {
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    color: white;
+    margin: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#profile-pic {
     max-width: 100%;
     width: min(25vw, 90%);
     height: auto;
@@ -245,20 +255,24 @@ li {
   
 .text {
     color: white;
-    flex: 1;
-    padding: 20px;
+    padding: 20px 80px;
 }
     
 #contact h2{
     color: white;
 }
+
+.text h3 {
+    margin-left: 18vw;
+    font-size: 3vw;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.5);
+}
   
 .card{
-    padding: 50px;
+    margin: 5vw 10vw;
 }
   
 .card form {
-    padding-right: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -273,6 +287,16 @@ li {
 .card form button {
     padding: 10px 20px;
     font-size: 16px;
+    background-color: orange;
+}
+
+#contact-img {
+    margin-left: 18vw;
+}
+
+#contact-img img {
+    margin: 1vw;
+    width: 10%;
 }
 
 
