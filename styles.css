@@ -179,7 +179,7 @@ li {
     max-width: 100%;
     width: min(25vw, 90%);
     height: auto;
-    padding: 50px;
+    padding: 4vw;
     transform: rotate(15deg);
     transition: transform 0.3s;
     cursor: pointer;
@@ -198,7 +198,7 @@ li {
 #about-resume h2 {
     padding-bottom: 20px;
     text-align: left;
-    font-size: 80px;
+    font-size:  5vw;
     text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
 }
 
@@ -217,7 +217,7 @@ li {
     position: absolute;
     bottom: -5px; 
     left: 0;
-    width: 650px; 
+    width: 45vw; 
     height: 0.5px;
     background-color: rgb(255,255,255,0.3); 
     display: block;
@@ -227,7 +227,7 @@ li {
 #download-anchor {
     display: block;
     padding: 25px;
-    margin-left: 150px;
+    margin-left: 4vw;
 }
 
 #download {
@@ -320,6 +320,18 @@ li {
 
     #my-projects {
         flex-direction: column;
+    }
+
+    #resume {
+        flex-direction: column;
+    }
+
+    #resume img {
+        padding-left: 35vw;
+    }
+
+    #download-anchor {
+        margin-left: 35vw;
     }
 
     #foot {
