@@ -87,7 +87,31 @@ a {
 #my-skills h4, h2, p {
     text-align: center;
 }
+#logo1{
+    text-align: center;
+    margin: 20px;
+}
 
+#logo2{
+    text-align: center;
+    margin: 20px;
+}
+
+#logo1 img {
+    width: min(5rem, 90%);
+    margin: 20px;
+}
+
+#logo2 img:not(#dart){
+    width: min(5rem, 90%);
+    margin: 20px;
+}
+
+#dart {
+    padding-bottom: 25px;
+    width: 10rem;
+    height: auto;
+}
 #foot {
     display: flex;
     background-color: #74c2f3;
