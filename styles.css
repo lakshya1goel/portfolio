@@ -43,7 +43,7 @@ li {
     margin: 0 20px;
 }
 
-a {
+.menu a {
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
@@ -79,7 +79,17 @@ a {
     line-height: 1.6;
 }
 
-#home img {
+#connect {
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    color: white;
+    margin: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#profile-pic {
     max-width: 100%;
     width: min(25vw, 90%);
     height: auto;
@@ -159,6 +169,37 @@ a {
     padding: 50px;
     background-color: #333536;
     border-radius: 50px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.7);
+}
+
+.pro button {
+    padding: 10px;
+    margin: 20px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+#insta-img {
+    position: relative;
+    width: 70%;
+    border-radius: 20px;
+}
+
+#insta-img:hover {
+    width: 75%;
+}
+
+#landing {
+    position: relative;
+    width: 80%;
+    border-radius: 20px;
+}
+
+#landing:hover {
+    width: 85%;
 }
 
 .card-content h3 {
@@ -179,7 +220,7 @@ a {
     max-width: 100%;
     width: min(25vw, 90%);
     height: auto;
-    padding: 50px;
+    padding: 4vw;
     transform: rotate(15deg);
     transition: transform 0.3s;
     cursor: pointer;
@@ -198,7 +239,7 @@ a {
 #about-resume h2 {
     padding-bottom: 20px;
     text-align: left;
-    font-size: 80px;
+    font-size:  5vw;
     text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5);
 }
 
@@ -217,25 +258,25 @@ a {
     position: absolute;
     bottom: -5px; 
     left: 0;
-    width: 650px; 
+    width: 45vw; 
     height: 0.5px;
     background-color: rgb(255,255,255,0.3); 
     display: block;
     margin: 0 auto;
 }
 
-#download {
-    padding: 10px;
-    margin: 20px;
-    background: linear-gradient(to left, #0c5c8f, #74c2f3);
-    cursor: pointer;
-    border-radius: 20px;
-    color: white;
+#download-anchor {
     display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: 18rem;
+    padding: 25px;
+    margin-left: 4vw;
+}
+
+#download {
+    background-color: orange;
     border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #foot {
@@ -245,20 +286,24 @@ a {
   
 .text {
     color: white;
-    flex: 1;
-    padding: 20px;
+    padding: 20px 80px;
 }
     
 #contact h2{
     color: white;
 }
+
+.text h3 {
+    margin-left: 18vw;
+    font-size: 3vw;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.5);
+}
   
 .card{
-    padding: 50px;
+    margin: 5vw 10vw;
 }
   
 .card form {
-    padding-right: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -273,13 +318,23 @@ a {
 .card form button {
     padding: 10px 20px;
     font-size: 16px;
+    background-color: orange;
+}
+
+#contact-img {
+    margin-left: 18vw;
+}
+
+#contact-img img {
+    margin: 1vw;
+    width: 10%;
 }
 
 
 
 @media (max-width: 700px) {
     main {
-        background-color: #b3dbf5;
+        background-color: #0f1519;
     }
 
     .menu {
@@ -320,6 +375,18 @@ a {
 
     #my-projects {
         flex-direction: column;
+    }
+
+    #resume {
+        flex-direction: column;
+    }
+
+    #resume img {
+        padding-left: 35vw;
+    }
+
+    #download-anchor {
+        margin-left: 35vw;
     }
 
     #foot {
