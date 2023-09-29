@@ -97,7 +97,7 @@ a {
 }
 
 #skills h2 {
-    font-size: 40px;
+    font-size: 80px;
     padding: 20px;
 }
 
@@ -134,20 +134,22 @@ a {
     background-color: #D9EDFA;
 }
 
-#about {
+#about-resume {
     display: flex;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 50px;
 }
 
-#about h2 {
+#about-resume h2 {
     padding-bottom: 20px;
     text-align: left;
+    font-size: 80px;
 }
 
-#about h4 {
+#about-resume h4 {
     padding: 8px;
     text-align: left;
+    font-size: 25px;
 }
 
 #about-text h4 {
