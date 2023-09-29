@@ -13,6 +13,12 @@ nav {
     color: white;
 }
 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
 .title {
     padding: 5px 20px;
 }
@@ -94,5 +100,36 @@ img {
     padding: 10px 20px;
     font-size: 16px;
 }
-  
-  
+
+@media (max-width: 700px) {
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .bar {
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        margin: 4px 4px;
+        transition: 0.4s;
+    }
+
+    #home {
+        flex-direction: column;
+    }
+
+    #about {
+        order: 2;
+    }
+
+    img {
+        order: 1;
+    }
+}
