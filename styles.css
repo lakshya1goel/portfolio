@@ -233,7 +233,7 @@ li {
 #about-resume {
     display: flex;
     justify-content: flex-start;
-    margin: 50px 100px;
+    margin: 3vw 6vw;
 }
 
 #about-resume h2 {
@@ -244,9 +244,9 @@ li {
 }
 
 #about-resume h4 {
-    padding: 8px;
+    padding: 1.2vw;
     text-align: left;
-    font-size: 25px;
+    font-size: 2vw;
 }
 
 #about-text h4 {
