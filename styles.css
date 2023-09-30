@@ -398,6 +398,16 @@ li {
         flex-direction: column;
     }
 
+    .pro {
+        width: 45vw;
+        margin-left: 22vw;
+    }
+
+    .card-content {
+        width: 40vw;
+        justify-content: center;
+    }
+
     #resume {
         flex-direction: column;
     }
